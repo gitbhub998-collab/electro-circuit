@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "index.html", "use": "@vercel/static" },
+    { "src": "style.css", "use": "@vercel/static" },
+    { "src": "script.js", "use": "@vercel/static" },
+    { "src": "quiz-data.js", "use": "@vercel/static" },
+    { "src": "audio/*", "use": "@vercel/static" },
+    { "src": "assets/*", "use": "@vercel/static" }
+  ]
+}
